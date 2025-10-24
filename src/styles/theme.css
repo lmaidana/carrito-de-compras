@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --cart-bg: #ffffff;
+  --accent-color: #27AE60;
+  --button-hover: rgba(0, 0, 0, 0.05);
+}
+
+.dark-theme {
+  --bg-color: #222222;
+  --text-color: #ffffff;
+  --accent-color: #27AE60;
+  --cart-bg: #333333;
+  --button-hover: rgba(255, 255, 255, 0.1);
+}
