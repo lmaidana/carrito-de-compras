@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   const location = useLocation();
 
   const titles = {
-    '/': 'Listado de productos',
+    '/': 'Listado de productoss',
     '/servicios': 'Servicios que ofrecemos en este e-commerce',
     '/contacto': '¿Tenés dudas? Hablemos.',
   };
