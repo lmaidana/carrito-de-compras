@@ -33,8 +33,7 @@ La idea principal es tener un catálogo de productos, un carrito de compras y un
 
 ## Pendientes
 
-- Implementación del botón para crear un nuevo producto desde el frontend.
-- Posible integración de autenticación para administración.+
+- Subir URL de vercel
   
 ## Instalación
 
