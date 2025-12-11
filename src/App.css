@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  overflow-x: hidden; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 #root {
-  width: 100vw; 
+  width: 100vw;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -45,31 +46,9 @@ body {
   padding: 2em;
   margin: 1em auto;
   max-width: 600px;
-  background-color: var(--bg-color);
-  color: var(--text-color);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.read-the-docs {
-  color: #888;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  #root {
-    padding: 1rem;
-  }
-
-  .card {
-    padding: 1rem;
-    margin: 0.5em auto;
-    width: 100%;
-  }
-
-  .logo {
-    height: 4em;
-    padding: 1em;
-  }
-}
+@import "react-toastify/dist/ReactToastify.css";

@@ -4,7 +4,7 @@ import Navbar from './components/layout/Navbar.jsx';
 import { useAuthContext } from './context/AuthContext.jsx';
 import AppRoutes from './routes/AppRoutes.jsx';
 import { checkSessionService } from "./services/authServices.jsx";
-
+import NotificationProvider from "./components/ui/NotificationProvider.jsx";
 export default function App() {
 
   const { setIsAuthenticated, isAuthenticated, user, setUser } = useAuthContext();
@@ -29,6 +29,7 @@ export default function App() {
       <Layout>
           <AppRoutes />
       </Layout>
+      <NotificationProvider />
     </>
   );
 }
